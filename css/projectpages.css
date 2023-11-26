@@ -1,0 +1,409 @@
+html{
+    font-size: 16px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+#headerlogo{
+    color: black;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 7vh;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#headerlogosmall{
+    color: #828282;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.33vh;
+}
+
+#navbar{
+    position: absolute;
+    list-style-type: none;
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.33vh;
+    left: 50%;
+    top: 7.6%;
+    width:50%;
+    /* background-color: rgba(0, 255, 255, 0.412); */
+}
+
+#hamburger{
+    display: none;
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    width:50px;
+}
+
+#hamburgerimg{
+    width:100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    float: left;
+    margin-right: 14%;
+  }
+
+#dropdown{
+    position: absolute;
+    list-style-type: none;
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.33vh;
+    left: 60%;
+    top: 15%;
+    width:20%;
+    line-height: 200%;
+    display: none;
+}
+
+#work{
+    cursor: pointer;
+}
+
+#firstoption{
+    cursor: pointer;
+}
+
+#firstoption:hover{
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+#secondoption{
+    cursor: pointer;
+}
+
+#secondoption:hover{
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+#thirdoption{
+    cursor: pointer;
+}
+
+#thirdoption:hover{
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+#fourthoption{
+    cursor: pointer;
+}
+
+#fourthoption:hover{
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+.workbutton{
+    color:#E6912C;
+    text-decoration: underline;
+}
+
+.workbutton a {
+    color:#69B8C3;
+}
+
+.mobilemenu{
+    width: 100%;
+  height:100%;
+  position:fixed;
+  z-index: 110;
+  background-color: #828282;
+  color: white;
+  top:0%;
+  left: 0%;
+  display: none;
+  font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 10vh;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+.mobilemenulist a {
+    color: white;
+}
+
+#whitex{
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    width:50px;
+}
+
+#whiteximg{
+    width:100%;
+    height: auto;
+}
+
+.textbox{
+    margin-right: 3%;
+    width: 55%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.bigtitle{
+    color: #E6912C;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 4vh;
+    font-style: normal;
+    line-height: 200%;
+    text-align: center;
+}
+
+.bigtitle2{
+    color: black;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 4vh;
+    font-style: normal;
+    line-height: 200%;
+    text-align: center;
+}
+
+.bigtitle a {
+    color: #E6912C;
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+.titlebox{
+    width: 100%;
+    margin-top: 7%;
+}
+
+.subtitle{
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.33vh;
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+    line-height: 200%;
+}
+
+.subtitle a {
+    text-decoration: underline;
+    line-break: anywhere;
+}
+
+.projectimage{
+    margin-left: 3%;
+    width: 50%;
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.projectimage img {
+    width:100%;
+    height: auto;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.projectimage img:hover {
+    width:110%;
+    height: auto;
+}
+
+.projectblurb{
+    float: right;
+    width: 40%;
+    margin-top: -47vh;
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.33vh;
+}
+
+.projectblurb a {
+    color:#E6912C;
+    text-decoration: underline;
+    text-decoration-color: #E6912C;
+}
+
+.greatercontainer{
+    /* background-color: #E6912C; */
+    height: 53vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4.5%;
+}
+
+.video{
+    margin-bottom:1.5%;
+    margin-top: 1.5%;
+    margin-left: 17.5%;
+}
+
+.footerblock{
+    width: 110%;
+    height: 25vh;
+    background-color: #D9D9D9;
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    line-height: 200%;
+    margin-left: -1%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    float:left;
+}
+
+.footerlist{
+    list-style-type: none;
+    padding-top: 0.5%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;  
+    flex-direction: column;
+  flex-wrap:wrap;
+  height: 25vh;
+}
+
+.workmenu{
+    width: 100%;
+  height:100%;
+  position:fixed;
+  z-index: 120;
+  background-color: #E6912C;
+  color: white;
+  top:110%;
+  left: 0%;
+  display: block;
+  font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 5vh;
+    text-align: center;
+    line-height: 400%;
+}
+
+.workmenulist{
+    margin-top:30%;
+}
+
+
+.workmenulist a {
+    color: white;
+}
+
+#updown{
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    width:30%;
+}
+
+#updownimg{
+    width:100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 974px) {
+   #navbar{
+    display:none;
+   }
+   #headerlogosmall{
+    display:none;
+   }
+   #headerlogo{
+    font-size: 5vh;
+   }
+   .subtitle{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 2.3vh;
+   }
+   #hamburger{
+    display:block;
+   }
+   .headshot{
+    width: 95%;
+    height: 40%;
+    align-items:self-start;
+   }
+   .headshot img{
+    margin-top: -15%;
+   }
+   .textbox{
+    float: left;
+    width: 95%;
+    margin-top:0%;
+    font-size: 2vh;
+    margin-bottom: 20%;
+    margin-left: 3%;
+   }
+   .email{
+    color: #76B843;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    font-style: normal;
+    line-height: 200%;
+   }
+   .projectimage{
+    width: 95%;
+    height: 20%;
+    margin-bottom: 2%;
+   }
+   .projectblurb{
+    float: left;
+    width: 95%;
+    margin-top:0%;
+    font-size: 2vh;
+    margin-bottom: 20%;
+    margin-left: 2.5%;
+   }
+   .greatercontainer{
+    width: 95%;
+    height:auto;
+    margin-left: 2.5%;
+   }
+   .greatercontainer{
+    width: 95%;
+    height:auto;
+   }
+   .video{
+    width: 90%;
+    height: 40%;
+    margin-left: 5%;
+   }
+   .button{
+    display: none;
+   }
+   .break{
+    display:none;
+   }
+   footer{
+    display:none;
+   }
+  }
